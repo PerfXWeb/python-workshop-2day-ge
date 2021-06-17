@@ -1,3 +1,7 @@
-.ipynb_checkpoints/*
 
-*/sheets/*
+.ipynb_checkpoints/*
+*sheets*
+*.pdf
+*.png
+*.zip
+*.DS_Store

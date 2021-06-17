@@ -14758,7 +14758,7 @@ div.jp-OutputPrompt {
 <li>Sonderzeichen: Du kannst <em>NUR</em> Unterstriche <code>_</code> verwenden</li>
 <li>Name kann nicht NUR eine Zahl sein</li>
 <li>Ein paar Namen sind <em>reservierte Namen</em><ul>
-<li>z.B. <code>und</code>, <code>von</code>, <code>wenn</code>, <code>für</code>, <code>während</code>, <code>versuchen</code>, <code>break</code>,....</li>
+<li>z.B. <code>and</code>, <code>from</code>, <code>if</code>, <code>for</code>, <code>while</code>, <code>try</code>, <code>break</code>,....</li>
 </ul>
 </li>
 </ul>
@@ -15624,11 +15624,11 @@ Benutze geschwungene Klammern <code>{ }</code>.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># dictionaries</span>
-<span class="n">hobbies</span> <span class="o">=</span> <span class="s2">&quot;Shouting at managers&quot;</span>
+<span class="n">hobbies</span> <span class="o">=</span> <span class="s2">&quot;hiking&quot;</span>
 <span class="n">user_1</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span> <span class="p">:</span> <span class="s1">&#39;Karen&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">42</span><span class="p">,</span> <span class="s1">&#39;hobbies&#39;</span><span class="p">:</span><span class="n">hobbies</span><span class="p">}</span> <span class="c1"># MUST use curly brackets.</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">user_1</span><span class="p">)</span>
@@ -15654,7 +15654,7 @@ Benutze geschwungene Klammern <code>{ }</code>.</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;name&#39;: &#39;Karen&#39;, &#39;age&#39;: 42, &#39;hobbies&#39;: &#39;Shouting at managers&#39;}
+<pre>{&#39;name&#39;: &#39;Karen&#39;, &#39;age&#39;: 42, &#39;hobbies&#39;: &#39;hiking&#39;}
 42
 </pre>
 </div>
@@ -15667,13 +15667,13 @@ Benutze geschwungene Klammern <code>{ }</code>.</p>
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># changing variables or ADDING new ones is EXACTLY the same as with lists</span>
 
 <span class="c1"># changing</span>
-<span class="n">user_1</span><span class="p">[</span><span class="s1">&#39;hobbies&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">user_1</span><span class="p">[</span><span class="s1">&#39;hobbies&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot; very loudly&quot;</span> <span class="c1"># here I added two more words to the already existing</span>
+<span class="n">user_1</span><span class="p">[</span><span class="s1">&#39;hobbies&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">user_1</span><span class="p">[</span><span class="s1">&#39;hobbies&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot; glaciers&quot;</span> <span class="c1"># here I added two more words to the already existing</span>
 
 <span class="c1"># adding</span>
 <span class="n">user_1</span><span class="p">[</span><span class="s1">&#39;children&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
@@ -15698,7 +15698,7 @@ Benutze geschwungene Klammern <code>{ }</code>.</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;name&#39;: &#39;Karen&#39;, &#39;age&#39;: 42, &#39;hobbies&#39;: &#39;Shouting at managers very loudly&#39;, &#39;children&#39;: 0}
+<pre>{&#39;name&#39;: &#39;Karen&#39;, &#39;age&#39;: 42, &#39;hobbies&#39;: &#39;hiking glaciers&#39;, &#39;children&#39;: 0}
 </pre>
 </div>
 </div>
@@ -15717,7 +15717,7 @@ Benutze geschwungene Klammern <code>{ }</code>.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Your variables</span>
@@ -15725,7 +15725,7 @@ Benutze geschwungene Klammern <code>{ }</code>.</p>
          <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;Alex&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">25</span><span class="p">,</span> <span class="s1">&#39;hobbies&#39;</span><span class="p">:</span><span class="s1">&#39;swimming&#39;</span><span class="p">},</span>
          <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;Steve&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">28</span><span class="p">,</span> <span class="s1">&#39;hobbies&#39;</span><span class="p">:</span><span class="s1">&#39;studying&#39;</span><span class="p">},</span>
          <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;Patricia&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">20</span><span class="p">,</span> <span class="s1">&#39;hobbies&#39;</span><span class="p">:</span><span class="s1">&#39;tennis&#39;</span><span class="p">},</span>
-         <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;Karen&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">42</span><span class="p">,</span> <span class="s1">&#39;hobbies&#39;</span><span class="p">:</span><span class="s1">&#39;shouting at managers&#39;</span><span class="p">}</span>
+         <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;Karen&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">42</span><span class="p">,</span> <span class="s1">&#39;hobbies&#39;</span><span class="p">:</span><span class="s1">&#39;hiking&#39;</span><span class="p">}</span>
 <span class="p">]</span>
 </pre></div>
 
@@ -18525,7 +18525,30 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 </div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Projekt-2---PDFs-mit-einem-Wasserzeichen-beschreiben">Projekt 2 - PDFs mit einem Wasserzeichen beschreiben<a class="anchor-link" href="#Projekt-2---PDFs-mit-einem-Wasserzeichen-beschreiben">&#182;</a></h2>
+<h2 id="Projekt-2---Viele-PDFs-zusammenfassen">Projekt 2 - Viele PDFs zusammenfassen<a class="anchor-link" href="#Projekt-2---Viele-PDFs-zusammenfassen">&#182;</a></h2>
+</div>
+</div><div class="fragment">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Das-Problem">Das Problem<a class="anchor-link" href="#Das-Problem">&#182;</a></h3><ul>
+<li>Wir haben eine unglaubliche Menge an PDFs, die wir zusammenfügen wollen.</li>
+<li>Alle manuell machen ist uns einfach zu viel Aufwand.</li>
+</ul>
+
+</div>
+</div></div><div class="fragment">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Die-L&#246;sung">Die L&#246;sung<a class="anchor-link" href="#Die-L&#246;sung">&#182;</a></h3><ul>
+<li>Ein kleines Programm, dass alle PDFs in einem bestimmten Ordner in eine einzige Datei zusammenfasst.</li>
+<li>Die Datei wird dann <code>PDF_merged.pdf</code> genannt</li>
+</ul>
+
+</div>
+</div></div></section><section>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Projekt-3---PDFs-mit-einem-Wasserzeichen-beschreiben">Projekt 3 - PDFs mit einem Wasserzeichen beschreiben<a class="anchor-link" href="#Projekt-3---PDFs-mit-einem-Wasserzeichen-beschreiben">&#182;</a></h2>
 </div>
 </div><div class="fragment">
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -18543,29 +18566,6 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 <li>Passendes Python package finden, mit dem PDFs bearbeitet werden können.</li>
 <li>Wasserzeichen / Signatur mittig am unteren Rand der PDF aufdrucken.</li>
 <li>PDF mit einem <code>_signed</code> suffix abspeichern.</li>
-</ul>
-
-</div>
-</div></div></section><section>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Projekt-3---Viele-PDFs-zusammenfassen">Projekt 3 - Viele PDFs zusammenfassen<a class="anchor-link" href="#Projekt-3---Viele-PDFs-zusammenfassen">&#182;</a></h2>
-</div>
-</div><div class="fragment">
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Das-Problem">Das Problem<a class="anchor-link" href="#Das-Problem">&#182;</a></h3><ul>
-<li>Wir haben eine unglaubliche Menge an PDFs, die wir zusammenfügen wollen.</li>
-<li>Alle manuell machen ist uns einfach zu viel Aufwand.</li>
-</ul>
-
-</div>
-</div></div><div class="fragment">
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Die-L&#246;sung">Die L&#246;sung<a class="anchor-link" href="#Die-L&#246;sung">&#182;</a></h3><ul>
-<li>Ein kleines Programm, dass alle PDFs in einem bestimmten Ordner in eine einzige Datei zusammenfasst.</li>
-<li>Die Datei wird dann <code>PDF_merged.pdf</code> genannt</li>
 </ul>
 
 </div>
